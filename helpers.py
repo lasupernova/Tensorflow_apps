@@ -184,7 +184,7 @@ def plot_loss_curves(history):
   plt.xlabel('Epochs')
   plt.legend();
 
-def compare_histoies(original_history, new_history, initial_epochs=5):
+def compare_histories(original_history, new_history, initial_epochs=5):
     """
     Compares two TensorFlow model History objects.
     
